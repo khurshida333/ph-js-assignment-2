@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.player-search {
+    margin: 2rem 0;
+}
+.player-search-box {
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: stretch;
+}
+.search-input,
+.search-btn {
+    width: 100%;
+}
+.search-input {
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid rgb(255, 167, 135);
+    color: rgb(255, 167, 135);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.search-input::placeholder {
+    color: rgb(255, 167, 135);
+}
+.search-btn {
+    width: 55px;
+    height: 55px;
+    font-size: 1.8rem;
+    background: rgb(255, 167, 135);
+    color: #fff;
+    border: none;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.container {
+    width: 100%;
+    display: flex;
+}
+.player-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+}
+.player-cards-img {
+    width: 150px;
+    border-radius: 80px;
+}
+
+.player-cards {
+    background-color: rgb(215, 245, 235);
+    border: 1px solid grey;
+    border-radius: 30px;
+    box-shadow: 4px 4px 8px gray;
+    padding: 10px;
+    border: 2px solid rgb(255, 195, 195);
+    height: 500px;
+    width: 350px;
+}
+.cart-info {
+    display: flex;
+    justify-content: space-around;
+}
+.group-carts-container {
+
+    width: 30%;
+    background-color: rgb(243, 206, 215);
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 30px;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    width: 30%;
+}
+.player-cards-icon{
+    width: 25px;
+    height: 25px;
+}
+.modal-content{
+    text-align: center;
+    position: fixed;
+    margin-top: 90px;
+    margin-left: 0px;
+    margin-right: 200px;
+    margin-bottom: 0px;
+        height: 550px;
+        width: 550px;
+        overflow-y: scroll;
+        background: rgb(255, 233, 233);
+        border: 1px solid  rgb(250, 167, 167);
+        justify-content: center
+}
+.player-details-container-main{
+    text-align: center;
+ }
+.addBtn{
+    border: 1px solid  rgb(64, 215, 253);
+    background-color: rgb(163, 233, 250);
+    border-radius: 10px;
+}
+.detailsBtn{
+    border:1px solid  rgb(112, 112, 255) ;
+    background-color: rgb(168, 168, 253);
+    border-radius: 10px;
+}
